@@ -7,13 +7,13 @@ router.get('/', (req,res) =>{
         city: 'Garner',
         state: 'North Carolina',
         cuisines: 'Sandwiches and pastries',
-        picture: 'notfound.com'
+        picture: 'https://cdn.shopify.com/s/files/1/1140/8954/files/cafe1-1024-400-upstairs_480x480.jpg?v=1631551811'
     }, {
         name: 'Lidl',
         city: 'Garner',
         state: 'North Carolina',
         cuisines: 'Grocery, bakery',
-        picture: 'aldi.us'
+        picture: 'https://media.bizj.us/view/img/12516783/lidlgarnerncexterior97*750xx3945-2216-87-449.jpg'
     }]
     res.render('places/index', { places })
 })
